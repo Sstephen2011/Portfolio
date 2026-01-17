@@ -1,0 +1,66 @@
+:root {
+  accent-color: rgba(250, 15, 117);
+}
+
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+h1 {
+  color: rgba(250, 15, 117);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem
+}
+
+#quizForm {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+form {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+p {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.65rem;
+}
+
+.question {
+  font-size: 1.7rem;
+  font-family: Helvetica;
+  background-color: #1E1E1E;
+  padding: 15px;
+  padding-top: 10px;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem
+}
+
+button {
+  color: #E0E0E0;
+  background-color: rgba(250, 15, 117);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+input[type="radio"] {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.65rem;
+  border-radius: 50%; /* make circle */
+}
+
+
